@@ -1,0 +1,148 @@
+/* Section reviews  Start*/
+.section_reviews{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #333333;
+}
+
+.section_reviews>h3{
+  margin: 40px 0px;
+  font-family: 'Oswald';
+  font-weight: 600;
+  font-size: 4.8rem;
+  color: #FFFFFF;
+}
+
+.section_reviews__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+
+.section_reviews__container__content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.reviews_card{
+  display: flex;
+  width: 427px;
+  margin: 20px 0px;
+  padding: 20px 20px 10px;
+  border-radius: 20px;
+  background: #FFFFFF;
+}
+
+.reviews_card__info{
+  margin-right: 25px;
+
+}
+
+.reviews_card__info__content{
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #000000;
+}
+
+.reviews_card__info__content .section_goods__container__rating{
+  margin: 5px 0px;
+  width: 130px;
+}
+
+.reviews_card__info__content  .rating_product_container_star{
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-color: #BCBCCC;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.yelow_all,
+.yelow_half{
+  position: absolute;
+  height: 100%;
+  background-color: #FFCC48;
+}
+
+.yelow_half{
+  width: 50%;
+}
+
+.yelow_all{
+  width: 100%;
+}
+
+.reviews_card__text p{
+  margin-bottom: 10px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.6rem;
+  color: #000000;
+}
+
+.section_reviews__container__pagination{
+  position: relative;
+  margin: 40px 0px 60px;
+  width: 95%;
+  height: 36px;
+}
+
+.pagination{
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  right: 0;
+  top: 0;
+  width: auto;
+  height: 36px;
+}
+
+.pagination button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3px;
+  height: 36px;
+  width: 36px;
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 2.0rem;
+  border: 1px solid #A04955;
+}
+
+.pagination button:first-child,
+.pagination button:last-child{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 20px;
+ background-image: url("/assets/image/homepage/icons/arrow.svg");
+}
+
+.pagination button:first-child{
+  transform: rotate(180deg);
+}
+
+.selected{
+  color: #FFFFFF;
+  background: #A04955;
+}
+
+.unselected{
+  background: #F1F1F1;
+  color: #A04955;
+}
+
+.pagination button:active{
+  background-color: rgb(214, 121, 121);
+}
+
+/* Section reviews  End*/

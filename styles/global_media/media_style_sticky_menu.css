@@ -1,0 +1,104 @@
+@media screen and (max-width: 1300px){
+  .sticky_menu{
+    margin-left: 90%;
+  }
+}
+
+@media screen and (max-width: 1240px){
+  .sticky_menu{
+    top: 60vh;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .sticky_menu{
+    margin-left: 88%;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .sticky_menu{
+    margin-left: 88%;
+  }
+
+  .limk_home,
+  .limk_basket{
+    width: 63px;
+    height: 63px;
+  }
+
+  .limk_basket a{
+    background-position: center 30px;
+  }
+
+  .limk_basket span{
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .sticky_menu{
+    margin-left: 86%;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .sticky_menu{
+    margin-left: 84%;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .sticky_menu{
+    margin-left: 82%;
+    top: 52vh;
+  }
+}
+
+
+@media screen and (max-width: 500px){
+  .sticky_menu{
+    margin-left: 80%;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .sticky_menu{
+    margin-left: 78%;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .sticky_menu{
+    margin-left: 76%;
+  }
+}
+
+@media screen and (max-width: 350px){
+  .sticky_menu{
+    margin-left: 74%;
+  }
+
+  .limk_home,
+  .limk_basket{
+    width: 63px;
+    height: 63px;
+  }
+
+  .limk_basket a{
+    background-position: center 23px;
+  }
+
+  .limk_basket span{
+    top: 4px;
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 350px){
+  .sticky_menu{
+    margin-left: 72%;
+  }
+}

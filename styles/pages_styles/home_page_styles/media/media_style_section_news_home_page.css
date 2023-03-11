@@ -1,0 +1,120 @@
+@media screen and (max-width: 1330px){
+  .section_news__container_content{
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1220px){
+  .section_news__container{
+    margin: unset;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .section_news__container_content{
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .section_news__container_content{
+    width: 400px;
+  }
+  .section_news__container_content__btn{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 990px){
+  .section_news__container_content{
+    width: 350px;
+  }
+
+  .section_news__container_content__banner{
+    height: 323px;
+  }
+}
+
+@media screen and (max-width: 860px){
+  .section_news__container{
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .section_news__container_content{
+    margin-bottom: 60px;
+  }
+
+  .section_news__container_content{
+    width: 550px;
+  }
+
+  .section_news__container_content__banner{
+    height: 517px;
+  }
+  
+  .section_news__container_content__btn{
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 630px){
+  .section_news__container_content{
+    width: 450px;
+  }
+
+  .section_news__container_content__btn{
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .section_news__container_content{
+    width: 400px;
+  }
+  .section_news__container_content__btn{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 430px){
+  .section_news__container{
+    margin-bottom: unset;
+  }
+  .section_news__container_content{
+    width: 350px;
+  }
+
+  .section_news__container_content__banner{
+    height: 323px;
+  }
+
+  .section_news__container_content__banner > p{
+    font-size: 2.5rem;
+  }
+
+  .section_news__container_content__text{
+    font-size: 1.5rem;
+  }
+
+  .section_news__container_content__btn{
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .section_news__container_content{
+    width: 270px;
+  }
+
+  .section_news__container_content__banner{
+    height: 249px;
+  }
+
+  .section_news__container_content__banner > p{
+    font-size: 2rem;
+  }
+
+  .section_news__container_content__text{
+    font-size: 1.3rem;
+  }
+}

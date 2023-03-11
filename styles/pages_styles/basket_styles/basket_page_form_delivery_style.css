@@ -1,0 +1,213 @@
+/*Form Delivery Start*/
+
+.section_basket__container__delivery{
+  margin-top: 30px;
+  width: 25%;
+  background: #E5E5E5;
+}
+
+.delivery__container{
+  display: flex;
+  flex-direction: column;
+}
+
+.delivery__container__order{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.delivery__container__order p{
+  width: 250px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 4rem;
+  text-align: center;
+  color: #000000;
+  border-bottom: 4px solid black;
+}
+
+.delivery__container__order span{
+  margin-left: 10px;
+  color: #dd5858;
+}
+
+.delivery__container__info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.delivery__container__info h3{
+  width: 60%;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 4rem;
+  text-align: center;
+  color: #000000;
+  border-bottom: 4px solid black;
+}
+
+.form_delivery{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_delivery__cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  border-bottom: 4px solid black;
+}
+
+.form_delivery__cont:nth-child(1){
+  border-bottom: none;
+}
+
+.form_delivery label{
+  position: relative;
+  margin: 10px 0px;
+  padding-bottom: 10px;
+  width: 90%;
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 4rem;
+  text-align: center;
+  color: #000000;
+}
+
+.radioPostLabel::after{
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  border: 4px solid black;
+}
+
+.radioPostLabel::before{
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+}
+#ukranianPostInput,
+#newPostInput,
+#userAgreementInput{
+  display: none;
+}
+
+#ukranianPostInput:checked+.radioPostLabel::before,
+#newPostInput:checked+.radioPostLabel::before{
+  background-color: rgb(0, 255, 0);
+}
+
+.form_delivery__cont input[type="text"],
+.form_delivery__cont input[type="tel"],
+.form_delivery__cont input[type="number"],
+.form_delivery__cont input[type="email"]{
+  width: 80%;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 4rem;
+  text-align: center;
+  color: #000000;
+  background-color: white;
+}
+
+.form_delivery__cont>.userAgreementLabel{
+  padding: unset;
+  padding: 0px 0px 50px 0px;
+}
+
+.userAgreementLabel::before{
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  border: 4px solid black;
+  z-index: 1;
+}
+
+.userAgreementLabel::after{
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+}
+
+#userAgreementInput:checked+.userAgreementLabel::after{
+  background-color: rgb(0, 255, 0);
+}
+
+.form_delivery p{
+  width: 90%;
+  margin: 15px 0px;
+}
+
+.form_delivery p,
+#userDeliveryComents{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 4rem;
+  text-align: center;
+  color: #000000;
+}
+
+#userDeliveryComents{
+  text-align: start;
+  padding: 10px;
+  width: 90%;
+  height: 200px;
+  border: 1px solid #333333;
+  resize: none;
+}
+
+#send_order_complet{
+  text-transform: uppercase;
+  margin: 20px 0px;
+  padding: 10px 40px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  color: white;
+  background: #A04955;
+}
+
+.notCheck{
+  background-color: red;
+}
+/*Form Delivery End*/

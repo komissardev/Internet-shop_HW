@@ -1,0 +1,13 @@
+/* Section Baskt Start */
+.section_basket{
+  margin: 20px 0px;
+}
+
+.section_basket__container{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+}
+/* Section Baskt End */

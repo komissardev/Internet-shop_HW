@@ -1,0 +1,160 @@
+/*Option Start*/
+.main_container__content__options{
+  position: absolute;
+  width: 23%;
+  height: auto;
+  left: 0;
+  top: 20px;
+  padding: 30px 20px;
+  background: #FFFFFF;
+  border: 1px solid #A04955;
+}
+
+.options_size__container,
+.options_color__container,
+.options_inseam__container,
+.options_sustainable__container,
+.options_collections__container{
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #A04955;
+}
+
+#checkbox_option_size,
+#checkbox_option_color,
+#checkbox_option_inseam,
+#checkbox_option_sustainable,
+#checkbox_option_collections{
+  position: absolute;
+  display: none;
+  right: 10px;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+#label_option_size,
+#label_option_color,
+#label_option_inseam,
+#label_option_sustainable,
+#label_option_collections{
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding-left: 5px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 4rem;
+  text-transform: capitalize;
+  letter-spacing: 0.2em;
+  color: #000000;
+}
+
+#label_option_size::before,
+#label_option_color::before,
+#label_option_inseam::before,
+#label_option_sustainable::before,
+#label_option_collections::before{
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  top: 10px;
+  right: 10px;
+  transform: rotate(90deg);
+  background-image: url("/assets/image/homepage/icons/arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: center;
+
+}
+
+#checkbox_option_size:checked~#label_option_size::before,
+#checkbox_option_color:checked~#label_option_color::before,
+#checkbox_option_inseam:checked~#label_option_inseam::before,
+#checkbox_option_sustainable:checked~#label_option_sustainable::before,
+#checkbox_option_collections:checked~#label_option_collections::before{
+  transform: rotate(270deg);
+}
+
+#checkbox_option_size:checked~.options_size__content,
+#checkbox_option_color:checked~.options_color__content,
+#checkbox_option_inseam:checked~.options_inseam__content,
+#checkbox_option_sustainable:checked~.options_sustainable__content,
+#checkbox_option_collections:checked~.options_collections__content{
+  display: flex;
+}
+
+.options_size__content,
+.options_color__content,
+.options_inseam__content,
+.options_sustainable__content,
+.options_collections__content{
+  display: none;
+  flex-wrap: wrap;
+  padding: 10px 0px 0px;
+}
+
+.options_size__content button,
+.options_color__content button,
+.options_inseam__content button,
+.options_sustainable__content button,
+.options_collections__content button{
+  margin: 7px;
+  width: 40px;
+  height: 40px;
+  background: #F1F1F1;
+}
+
+.input_size,
+.input_color{
+  display: none;
+}
+
+.input_size:checked+.label_size{
+  color: #A04955;
+  border: 4px solid #A04955;
+  border-radius: 10px;
+}
+
+.input_color:checked+.label_color{
+  border: 4px solid #A04955;
+  border-radius: 10px;
+}
+
+
+.label_size,
+.label_color{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7px;
+  width: 40px;
+  height: 40px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #000000;
+  transition: transform .2s;
+}
+
+.label_size{
+  background: #F1F1F1;
+}
+
+.label_color{
+  border: 2px solid black;
+}
+
+.label_size:hover,
+.label_color:hover{
+  transform: scale(1.1);
+  transition: transform .2s;
+}
+
+/*Option End*/

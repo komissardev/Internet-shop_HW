@@ -1,0 +1,51 @@
+/* Section Info Start*/
+.section_info{
+  position: relative;
+  width: 100%;
+  background-image: url(/assets/image/homepage/image5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  background-position: right;
+}
+
+.section_info h2{
+  width: 40%;
+  margin: 0px 0px 30px 150px;
+  text-transform: capitalize;
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 6.5rem;
+  line-height: 9.6rem;
+  color: #FFFFFF;
+}
+
+.section_info p{
+  width: 40%;
+  margin: 0px 0px 30px 150px;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+  color: #FFFFFF;
+}
+
+.section_info_btn{
+  width: 32%;
+  margin: 0px 0px 40px 150px;
+  padding: 8px 16px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+  background: #A04955;
+  text-align: center;
+  color: #FFFFFF;
+}
+.section_info_btn:active{
+  background-color: #F1F1F1;
+  color: #000000;
+}
+/* Section Info End*/

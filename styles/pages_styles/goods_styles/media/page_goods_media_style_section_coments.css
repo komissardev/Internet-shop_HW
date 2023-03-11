@@ -1,0 +1,56 @@
+@media screen and (max-width: 1340px){
+  .section_user_coments__container__content{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 940px){
+  .section_user_coments__container__content{
+    width: 60%;
+  }
+
+  .section_user_coments{
+    padding: 20px 5% 0px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .section_user_coments__container h4{
+    font-size: 2.6rem;
+  }
+
+  .section_user_coments__container h3{
+    font-size: 3.8rem;
+  }
+
+  .section_user_coments__container__content{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .section_user_coments__container h4,
+  .section_user_coments__container>p{
+    font-size: 1.8rem;
+  }
+
+  .section_user_coments__container h3{
+    text-align: center;
+    font-size: 2.8rem;
+  }
+
+  .section_user_coments__container__content__info p{
+    font-size: 1.5rem;
+  }
+
+  .section_user_coments__container__content{
+    width: 90%;
+  }
+
+  #user_name,
+  #user_summary,
+  #user_review{
+    width: 90%;
+    margin: 0px auto 15px;
+  }
+}

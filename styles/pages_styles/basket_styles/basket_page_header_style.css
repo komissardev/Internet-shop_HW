@@ -1,0 +1,17 @@
+/* Header Start*/
+.header__container{
+  display: flex;
+  justify-content: space-around;
+  margin: 90px 0px 0px;
+}
+
+.header__container h3{
+  font-family: 'Oswald';
+  width: 15%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #000000;
+}
+
+/* Header End*/

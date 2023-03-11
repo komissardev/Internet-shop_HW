@@ -1,0 +1,24 @@
+/*Global styles import start*/
+@import url("/styles/globa_styles/reset_style.css");
+@import url("/styles/globa_styles/body_style.css");
+@import url("/styles/globa_styles/sticky_menu.css");
+@import url("/styles/globa_styles/navigation_menu.css");
+@import url("/styles/globa_styles/footer_menu.css");
+/*Global styles import end*/
+
+/*Page styles import start*/
+@import url("./basket_page_header_style.css");
+@import url("./basket_page_section_basket_style.css");
+@import url("./basket_page_container_goods_style.css");
+@import url("./basket_page_form_delivery_style.css");
+/*Page styles import end*/
+
+/*Global media styles import start*/
+@import url("/styles/global_media/media_style_navigation_menu.css");
+@import url("/styles/global_media/media_style_sticky_menu.css");
+@import url("/styles/global_media/media_style_footer_menu.css");
+/*Global media styles import end*/
+
+/*Page media styles import start*/
+@import url("./media/basket_page_media_style_container_goods.css");
+/*Page media styles import end*/

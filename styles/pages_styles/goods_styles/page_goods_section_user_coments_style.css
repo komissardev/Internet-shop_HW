@@ -1,0 +1,165 @@
+/* Section user_coments Start*/
+.section_user_coments{
+  padding: 20px 152px 0px;
+}
+
+.section_user_coments__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAFAFA;
+}
+
+.section_user_coments__container h4,
+.section_user_coments__container h3,
+.section_user_coments__container p,
+.section_user_coments__container__content__info p{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+}
+
+.section_user_coments__container h4{
+  margin-top: 20px;
+  font-size: 3.6rem;
+  color: #A04955;
+}
+
+.section_user_coments__container h3{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 4.8rem;
+  color: #333333;
+}
+
+.section_user_coments__container>p{
+  margin-top: 20px;
+  font-size: 2.4rem;
+  color: #333333;
+}
+
+.section_user_coments__container__content{
+  width: 25%;
+}
+
+.section_user_coments__container__content__info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.section_user_coments__container__content__info p{
+  margin: auto 0;
+  font-size: 1.8rem;
+  color: #333333;
+}
+
+.simple-rating{
+  position: relative;
+  font-size: 40px;
+  display: inline-block;
+}
+
+.simple-rating::before{
+  content: "★★★★★";
+  display: block;
+}
+
+.simple-rating__items{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  overflow: hidden;
+}
+
+.simple-rating__item{
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.simple-rating__label{
+  flex: 0 0 20%;
+  height: 100%;
+  cursor: pointer;
+  color: #BCBCCC;
+}
+
+.simple-rating__label::before{
+  content: "★";
+  display: block;
+  transition: color 0.4s ease 0s;
+}
+
+.simple-rating__label:hover,
+.simple-rating__label:hover~.simple-rating__label,
+.simple-rating__label:hover:checked~.simple-rating__label:hover,
+.simple-rating__item:checked,
+.simple-rating__item:checked~.simple-rating__label{
+  color: #FFCC48;
+}
+
+.user_coments_form{
+  margin: 75px 0px 30px;
+}
+
+.user_coments_form__info{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#user_name,
+#user_summary,
+#user_review{
+  padding: 5px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: #333333;
+  opacity: 0.5;
+  border: 1px solid #333333;
+}
+#user_name{
+  width: 40%;
+}
+
+#user_summary{
+  width: 57%;
+}
+
+#user_review{
+  margin-top: 15px;
+  height: 147px;
+  width: 100%;
+  resize: none;
+}
+
+#user_comsents_form_submit{
+  width: 244px;
+  height: 50px;
+  margin-bottom: 40px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  text-align: center;
+  color: #FFFFFF;
+  background: #A04955;
+}
+
+/* Section user_coments  End*/

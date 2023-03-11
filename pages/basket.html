@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/pages_styles/basket_styles/basket_page_style.css">
+  <title>SportifUSA</title>
+</head>
+<body>
+  <div class="body_container">
+    <nav>
+      <div class="nav__body_container">
+        <a href="/index.html" class="nav__body_container__link">
+          <img src="../assets/image/homepage/logo.gif" alt="logotype" class="nav__body_container__logo">
+        </a>
+        <div class="nav__body_container__content">
+          <button class="burger-menu"></button>
+          <ul class="nav__body_container__content__unordered_list">
+            <li><a href="#">shorts</a></li>
+            <li><a href="#">pants</a></li>
+            <li><a href="#">shirts</a></li>
+            <li><a href="#">accessories</a></li>
+            <li><a href="#">sale</a></li>
+          </ul>
+          <div class="nav__body_container__content__form">
+            <form autocomplete="on">
+              <input type="submit" name="nav_submit" id="nav_body_container_submit" value="">
+              <input type="search" name="nav_search" id="nav_body_container_search" placeholder="SEARCH ENTIRE STORE HERE">
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="sticky_menu">
+      <div class="link_home">
+        <a href="#"></a>
+      </div>
+    </div>
+    <header>
+      <div class="header__container">
+        <h3>
+          HOME>BASKET
+        </h3>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="section_basket">
+          <div class="section_basket__container">
+            <div class="section_basket__container__goods">
+            </div>
+            <div class="section_basket__container__delivery">
+              <div class="delivery__container">
+                <div class="delivery__container__order">
+                  <p>To be paid:<span id="paid"></span><span>$</span></p>
+                </div>
+                <div class="delivery__container__info">
+                  <h3>Delivery is only cash on delivery</h3>
+                  <form>
+                    <div class="form_delivery">
+                      <div class="form_delivery__cont">
+                        <input type="radio" id="ukranianPostInput" name="post">
+                        <label for="ukranianPostInput" class="radioPostLabel">Ukrposhta</label>
+                      </div>
+                      <div class="form_delivery__cont">
+                        <input type="radio" id="newPostInput" name="post">
+                        <label for="newPostInput" class="radioPostLabel">New Post</label>
+                      </div>
+                      <div class="form_delivery__cont">
+                        <label for="userPostNumberInput" class="userPostNumberLabel">Post office number</label>
+                        <input type="text" id="userPostNumberInput" maxlength="3" placeholder="1">
+                      </div>
+                      <div class="form_delivery__cont">
+                        <label for="userFirstNameInput" class="userFirstNameLabel">Your name</label>
+                        <input type="text" id="userFirstNameInput" maxlength="25" autocomplete="on"  placeholder="Name">
+                      </div>
+                      <div class="form_delivery__cont">
+                        <label for="userSecondNameInput" class="userSecondNameLabel">Your Surname</label>
+                        <input type="text" id="userSecondNameInput" maxlength="25" autocomplete="on" placeholder="Surname">
+                      </div>
+                      <div class="form_delivery__cont">
+                        <label for="userPhoneNumInput" class="userPhoneNumLabel">Your mobile number</label>
+                        <input type="tel" id="userPhoneNumInput" maxlength="13" autocomplete="on" value="+380">
+                      </div>
+                      <div class="form_delivery__cont">
+                        <label for="userEmailNameInput" class="userEmailNameLabel">Your email</label>
+                        <input type="email" id="userEmailNameInput" maxlength="25" autocomplete="on" placeholder="yourMail@gmail.com">
+                      </div>
+                      <div class="form_delivery__cont">
+                        <input type="checkbox" id="userAgreementInput">
+                        <label for="userAgreementInput" class="userAgreementLabel">I consent to the processing of my data</label>
+                      </div>
+                      <p>
+                        If you have any questions about your order,
+                        leave a comment on the order in the form below.
+                      </p>
+                      <textarea name="userDeliveryComents" id="userDeliveryComents" cols="30" rows="10" maxlength="140"></textarea>
+                      <button type="button" id="send_order_complet">Send order</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer_container">
+        <div class="footer_container__content">
+          <div class="footer_container__content__links ordering">
+            <h4>
+              ORDERING ONLINE
+            </h4>
+            <ul>
+              <li>
+                <a href="#">Account Login</a>
+              </li>
+              <li>
+                <a href="#">Our Guarantee</a>
+              </li>
+              <li>
+                <a href="#">Sportif Stretch Guide</a>
+              </li>
+              <li>
+                <a href="#">Size Chart & Sizing Information</a>
+              </li>
+              <li>
+                <a href="#">Hemming Information</a>
+              </li>
+              <li>
+                <a href="#">Ordering & Payment</a>
+              </li>
+              <li>
+                <a href="#">Shipping Information</a>
+              </li>
+              <li>
+                <a href="#">Returns</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_container__content__links about">
+            <h4>
+              ABOUT SPORTIF
+            </h4>
+            <ul>
+              <li>
+                <a href="#">COVID-19 Response</a>
+              </li>
+              <li>
+                <a href="#">History</a>
+              </li>
+              <li>
+                <a href="#">Legacy</a>
+              </li>
+              <li>
+                <a href="#">Good Sam Program</a>
+              </li>
+              <li>
+                <a href="#">Privacy & Security</a>
+              </li>
+              <li>
+                <a href="#">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="#">Careers</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_container__content__links quick"> 
+            <h4>
+              QUICK LINKS
+            </h4>
+            <ul>
+              <li>
+                <a href="#">FAQs</a>
+              </li>
+              <li>
+                <a href="#">Shop Online Catalog</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div  class="footer_container__content__links get_to_know">
+            <h4>
+              GET TO KNOW US
+            </h4>
+            <p>
+              Sign up for our weekly newsletter and get a 10% 
+              off coupon by email for your first order!
+            </p>
+            <p>
+              Sign Up for Our Newsletter:
+            </p>
+            <div class="footer_container__content__links__email">
+              <input type="email" id="email_get_to_know" placeholder="EMAIL ADDRESS">
+              <button id="btn_email_get_to_know">SUBSCRIBE</button>
+            </div>
+          </div>
+        </div>
+        <div class="footer_container__rights_reserved">
+          ©2021 Sportif Mailorder. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="/app/module/class/class.js"></script>
+<script src="/app/module/aar_library/all_library.js"></script>
+<script src="/app/module/aar_library/shorts_library/shorts_library.js"></script>
+<script src="/app/module/aar_library/pants_library/pants_library.js"></script>
+<script src="/app/module/aar_library/shirts_library/shirts_library.js"></script>
+<script src="/app/module/aar_library/accessories_library/accessories_library.js"></script>
+<script src="/app/module/aar_library/sale_library/sale_library.js"></script>
+<script src="/app/functions.js"></script>
+<script src="/app/pages/basket.js"></script>
+</html>
